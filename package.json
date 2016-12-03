@@ -1,0 +1,36 @@
+{
+  "name": "node-i3blocks",
+  "version": "1.0.0",
+  "description": "Implementation of various i3blocks blocks in javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Prioe/node-i3blocks.git"
+  },
+  "keywords": [
+    "i3",
+    "i3blocks"
+  ],
+  "author": "Michael Albertz <michael@prio.one>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Prioe/node-i3blocks/issues"
+  },
+  "homepage": "https://github.com/Prioe/node-i3blocks#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-eslint": "^7.1.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "dependencies": {
+    "geoip-lite": "^1.1.8",
+    "public-ip": "^2.0.1"
+  }
+}
