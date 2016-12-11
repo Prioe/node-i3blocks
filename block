@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+const args = process.argv.slice(2);
+const Block = require(`./dist/${args[0]}`).default;
+const block = new Block(...args);
+block.enableLog(`${__dirname}/logs/${args[0]}.json`);
+block.echo();
